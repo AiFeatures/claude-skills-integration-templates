@@ -1,6 +1,6 @@
 # Fork Customizations
 
-> This repository is a fork of [unknown]().
+> This repository is a fork of [calt13/claude-skills-integration-templates](https://github.com/calt13/claude-skills-integration-templates).
 > Managed under the [iAiFy Enterprise](https://github.com/enterprises/iAiFy) governance model.
 
 ## Purpose
@@ -11,7 +11,7 @@ Drop-in Markdown snippets that enable any Agent CLI to discover and use Claude S
 
 | Property | Value |
 |----------|-------|
-| Upstream | [unknown]() |
+| Upstream | [calt13/claude-skills-integration-templates](https://github.com/calt13/claude-skills-integration-templates) |
 | Language | N/A |
 | Fork org | AiFeatures |
 
