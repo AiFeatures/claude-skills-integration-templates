@@ -6,6 +6,16 @@
 
 **🚀 Try Now**: Give your web-capable agent this URL and say "install Claude Skills integration" → https://github.com/calt13/claude-skills-integration-templates
 
+## 🧪 Validating Templates
+
+Before submitting a new template, run the validator:
+
+```bash
+bash scripts/validate.sh
+```
+
+It checks every directory under `templates/` for a populated `CLAUDE_SKILLS_INTEGRATION.md` with no unfilled `<PLACEHOLDER>` tokens and a reasonable body length. Exits non-zero on failure — suitable for CI.
+
 ## 🎯 What This Solves
 
 Claude Skills are auto-discovered from three sources: `~/.claude/skills/`, `.claude/skills/` (project), and plugin Skills.[[1]](https://docs.claude.com/en/docs/claude-code/skills) But what if you're using **Codex CLI, Gemini CLI, Kimi CLI or other CLIs** alongside Claude Code?
