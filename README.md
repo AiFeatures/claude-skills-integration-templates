@@ -6,6 +6,10 @@
 
 **🚀 Try Now**: Give your web-capable agent this URL and say "install Claude Skills integration" → https://github.com/calt13/claude-skills-integration-templates
 
+## 🧭 Compatibility Matrix
+
+See [COMPATIBILITY.md](./COMPATIBILITY.md) for which templates are verified against which agent CLIs (Claude Code, Codex, Gemini, Kimi, GitHub Copilot Agent).
+
 ## 🧪 Validating Templates
 
 Before submitting a new template, run the validator:
